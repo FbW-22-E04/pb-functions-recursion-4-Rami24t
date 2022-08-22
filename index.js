@@ -8,7 +8,6 @@ function fibonacci(n) {
     if (typeof n == typeof 1) {
         a = n;
         n = new Array(a + 1);
-        n[n.length - 1] = a + 1;
         n[0] = 0;
         n[1] = 1;
         return fibonacci(n)
