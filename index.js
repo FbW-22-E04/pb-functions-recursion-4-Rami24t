@@ -6,8 +6,7 @@ function fibonacci(n) {
     if (n === 1)
         return [0, 1]
     if (typeof n == typeof 1) {
-        a = n;
-        n = new Array(a + 1);
+        n = new Array(n + 1);
         n[0] = 0;
         n[1] = 1;
         return fibonacci(n)
